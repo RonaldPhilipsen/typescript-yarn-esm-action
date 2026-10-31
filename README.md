@@ -131,7 +131,7 @@ So, what are you waiting for? Go ahead and start customizing your action!
 
 1. (Optional) Test your action locally
 
-   The [`@github/local-action`](https://github.com/github/local-action) utility
+   The [`@ronaldphilipsen/local-action`](https://github.com/github/local-action) utility
    can be used to test your action locally. It is a simple command-line tool
    that "stubs" (or simulates) the GitHub Actions Toolkit. This way, you can run
    your TypeScript action locally without having to commit and push your changes
@@ -147,7 +147,7 @@ So, what are you waiting for? Go ahead and start customizing your action!
 
      ```bash
      # npx @github/local action <action-yaml-path> <entrypoint> <dotenv-file>
-     npx @github/local-action . src/main.ts .env
+     npx @ronaldphilipsen/local-action . src/main.ts .env
      ```
 
    You can provide a `.env` file to the `local-action` CLI to set environment
